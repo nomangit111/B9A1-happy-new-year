@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.banner {
+    width: 80%;
+    height: 70vh;
+    margin: 40px auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../imege/Banner\ Image.png);
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.banner .banner-section {
+    color: white;
+    text-align: center;
+    padding: 150px 350px 350px;
+
+}
+
+.banner-section p {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 22px;
+    font-weight: 200;
+
+}
+.banner-section h1{
+    color: #FFF;
+text-align: center;
+font-family: Merriweather;
+font-size: 55px;
+font-weight: 900;
+
+}
