@@ -4,11 +4,16 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+}
+
 .banner {
     width: 80%;
     height: 70vh;
     margin: 40px auto;
-    background-image: url(../imege/Banner\ Image.png);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url("../imege/Banner\ Image.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -41,7 +46,7 @@
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
-    font-size: 55px;
+    font-size: 45px;
     font-weight: 900;
 
 }
@@ -80,10 +85,9 @@ section {
 
 }
 
-
 .img-size {
     max-width: 100%;
-
+    
 }
 
 .img-size img {
@@ -92,13 +96,13 @@ section {
     margin-bottom: 10px;
 
 }
-
-div .text-area {
-
+.text-point{
+    
     width: 80%;
     height: 70vh;
     margin: 40px auto;
-    background-position: center;
+    background-image: linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.6));
+     background-position: center;
     background-repeat: no-repeat;
     background-image: url(../imege/Vectorrr.png);
     background-size: cover;
@@ -111,7 +115,7 @@ div .text-area {
 
     color: #FFF;
     font-family: Merriweather;
-    font-size: 64px;
+    font-size: 44px;
     font-weight: 600;
     line-height: 68px;
     letter-spacing: 5px;
@@ -152,7 +156,7 @@ div .text-area {
     transition: 0.8s ease;
 
 
-
+    
 }
 
 .boxer-box {
@@ -161,14 +165,14 @@ div .text-area {
     margin: 40px auto;
 }
 
-.img-grid {}
+
 
 .img-columm {
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 16px;
-    padding: 16px;
+    
 
 }
 
@@ -221,9 +225,6 @@ div .text-area {
     margin: 40px auto;
 
 }
-
-.border-box {}
-
 .coteiner-box {
 
     padding-top: 600px;
@@ -236,7 +237,7 @@ div .text-area {
     margin: 40px auto;
     padding-top: 50px;
     border-radius: 16px;
-background: rgba(255, 0, 0, 0.05);
+    background: rgba(255, 0, 0, 0.05);
 }
 
 .content-box h1 {
@@ -260,105 +261,339 @@ background: rgba(255, 0, 0, 0.05);
     line-height: 32px;
     padding-bottom: 20px;
 }
-#email{
+
+#email {
     width: 250px;
     height: 40px;
     border: none;
     font-size: 15px;
     padding-left: 10px;
     border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-  
-}
-#Subscribe{
-     padding: 13px 40px;
-      border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  border: none;
-  background-color: #f00;
-  color: #FFF;
-  font-weight: 200px;
-  font-size: 12px;
-  cursor: pointer;
-     
-     
+    border-bottom-left-radius: 20px;
+
 }
 
-.last-footer{
+#Subscribe {
+    padding: 13px 40px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: none;
+    background-color: #f00;
+    color: #FFF;
+    font-weight: 200px;
+    font-size: 12px;
+    cursor: pointer;
+
+
+}
+
+.last-footer {
     width: 100%;
     height: 70vh;
     margin-top: 40px;
     background-color: #070211;
     color: #FFF;
 }
-.right-footer{
+
+.right-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 40px;
     margin-left: 150px;
 
-    
+
 }
 
-.right-footer p{
-      width: 250px;
-      gap: 5px;
-      line-height: 30px;
+.right-footer p {
+    width: 250px;
+    gap: 5px;
+    line-height: 30px;
 }
-.left-footer{
+
+.left-footer {
     display: block;
     align-items: center;
     margin-right: 200px;
 }
+
 .left-footer li {
     list-style: none;
-    margin-top: 5px; 
+    margin-top: 5px;
 }
-.left-footer li img{
+
+.left-footer li img {
     margin-top: 5px;
     width: 24px;
     height: 24px;
 
 
 }
-.left-footer li a{
+
+.left-footer li a {
     font-size: 20px;
     font-weight: 400;
     color: #FFFFFF;
     padding-left: 15px;
     text-decoration: none;
 }
-.logo-item{
+
+.logo-item {
     padding: 45px 0px;
 }
-.logo-item ul{
+
+.logo-item ul {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.logo-item ul li{
-    margin: 0px 10px;}
+
+.logo-item ul li {
+    margin: 0px 10px;
+}
 
 
-    .logo-item ul li img{
-        width: 54px;
-        height: 54px;
-        margin-top: 40px;
-        text-decoration: none;
+.logo-item ul li img {
+    width: 54px;
+    height: 54px;
+    margin-top: 40px;
+    text-decoration: none;
+    list-style: none;
+}
+ 
+.last-end {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+    width: 1050px;
+    margin-left: 150px;
+
+}
+
+.last-end p {
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: center;
+
+}
+.park-section{
+        width: 80%;
+        height: 70vh;
+        margin: 40px auto;
     }
-    .last-end{
+    .park-content{
+        display: block;
+        justify-content: center;
+        align-items: center;
+       padding: 100px 0px;
+    }
+    .park-content p{
+        text-align: center;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 36px;
+        color: #070211;
+    
+    }
+    .park-content span{
+        text-align: center;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 60px;
+        color: #FF0000;
+    
+    }
+    .park-content button{
+        display: flex;
+        justify-content: center;
+        width: 167px;
+        height: 56px;
+        background-color: #FF0000;
+        color: #FFFFFF;
+        align-items: center;
+        margin: 10px auto;
+        border: 0;
+        border-radius: 5px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .offer-section{
+        width: 80%;
+        height: 70vh;
+        margin: 40px auto;
+    }
+    .offer-content{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding-top: 25px;
-        width: 1050px;
-        margin-left: 150px;
-
+        padding: 100px 0px;
     }
-    .last-end p{
-        color: #FFFFFF;
+    .offer-1 span{
+        font-size: 24px;
+        font-weight: 400px;
+        color: #FF0000;
+        text-align: left;
+    }
+    .offer-1 h3{
+        font-size: 48px;
+        font-weight: 800px;
+        color: #070211;
+        padding: 10px 0px;
+        text-align: left;
+    }
+    .offer-1 p{
+        width: 393px;
         font-size: 20px;
-        text-align: center;
-
+        color: #070211;
+        text-align: left;
+    
     }
+    .offer-2 {
+    
+    }
+    .Ellipse{
+        width: 364px;
+        height: 364px;
+        margin: auto;
+        border-radius: 50%;
+        border: 10px solid #FF0000;
+        padding: 15px;
+    }
+    
+    .offer-3{
+        padding-right: 0;
+    
+    }
+    .offer-3 h3{
+        font-size: 48px;
+        text-align: left;
+        font-weight: bold;
+        color: #FF0000;
+        padding-bottom: 15px;
+    
+    }
+    .offer-3 p{
+        width: 276px;
+        font-size: 20px;
+        color: #070211;
+        padding-bottom: 30px;
+    }
+    .group70{
+        width: 140px;
+        height: 140px;
+    
+    }
+    
+    .holiday-content{
+        width: 80%;
+        height: 70vh;
+        margin: 40px auto;
+        align-items: center;
+        margin: auto;
+        padding-top: 200px;
+    }
+    .holiday-content span{
+       display: block;
+        color: #070211;
+        font-size:24px;
+        font-weight: 400;
+        text-align: center;
+     
+    }
+    .holiday-content h1{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 72px;
+        color: #FF0000;
+        font-weight: bold;
+        padding-top: 15px;
+    
+    }
+    .holiday-content  h1 .span{
+        text-align: center;
+        font-size: 72px;
+        color: #070211;
+        font-weight: bold;
+    
+    }
+    .holiday-content p{
+        width: 1068px;
+        margin:0px auto;
+        text-align: center;
+        color: #070211;
+        font-size: 20px;
+        font-weight: 400;
+        padding-top: 15px;
+        padding: 0px 100px;
+        line-height: 36px;
+        
+    }
+    .holiday-next-content{
+       width: 80%;
+        height: 70vh;
+        margin: 40px auto;
+        padding-bottom: 680px;
+    
+    }
+    .holiday-container{
+    
+        margin-top: 45px;
+        position: relative;
+      
+       
+    }
+    .holiday{
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top:20px ;
+    
+    }
+    .holiday-pic{
+        position: relative;
+        
+    }
+    .holiday-pic img{
+        position: absolute;
+        left: 0;
+        top: +50px;
+        width: 444px;
+        height: 377px;
+     
+       
+    }
+    .holday-img{
+        position: relative;
+        padding: 0;
+        margin: 0;
+        
+    
+    }
+    .holday-img img{   
+        width: 330px;
+        height: 350px;
+        margin-top:55px ;
+       
+        
+        
+    
+    }
+    .photo-size{
+        position: absolute;
+        width:220px ;
+        height: auto;
+        border-radius: 50%;
+        left: -50%;
+        
+    }
+    .border-box-size{
+        padding: 0;
+        margin: 0;
+        height: 229px;
+        background-color: #FF0000;
+        border-radius: 10px;
+        z-index: 100;}
